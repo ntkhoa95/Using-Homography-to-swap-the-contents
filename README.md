@@ -3,10 +3,9 @@
 </h3>
 
 ## Content
-Program for reconstructing 3D points from stereoscopic images and output a 3D xyz file
+Program for reading a JPG image, calculating homography mapping matrices between two photo frames in "ArtGallery.JPG", swapping them, and generating a new fake iamge.
 
 ## About
-- This project is done with Python
 - The source code of this project named "main_SVD.py"    (using SVD to get the homography matrix)
 - The source code of this project named "main_opencv.py" (using opencv to get the homography matrix)
 - All the results files in folder named "output"
